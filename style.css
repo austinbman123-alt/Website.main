@@ -30,8 +30,8 @@ button, input, textarea { color: inherit; font: inherit; }
 h1, h2, h3, p { margin-top: 0; }
 h1 { font-family: "Space Grotesk", sans-serif; font-size: clamp(3.5rem, 7vw, 6.7rem); letter-spacing: -.09em; line-height: .92; margin-bottom: 32px; max-width: 780px; }
 h1 em, .contact h2 em { color: inherit; font-family: var(--serif); font-weight: 400; letter-spacing: -.08em; }
-.hero-text { color: var(--muted); font-size: 1.05rem; line-height: 1.6; max-width: 430px; }
-.hero-actions { align-items: center; background-color: #1c1c1a; display: flex; gap: 28px; margin-top: 38px; }
+.hero-text { color: var(--text); font-size: 1.05rem; line-height: 1.6; max-width: 430px; }
+.hero-actions { align-items: center; background-color: #1c1c1a; display: flex; gap: 28px; margin-top: 38px; width: fit-content; }
 .text-link { background: var(--text); color: var(--bg); display: inline-flex; font-size: .85rem; gap: 22px; padding: 20px 24px; transition: transform .2s ease, background-color .2s ease, box-shadow .2s ease;}
 .text-link:hover { background: #41413b; color: var(--bg); box-shadow: 0 4px 10px rgba(0, 0, 0, .18); transform: translateY(-2px) scale(1.01);}
 .text-link span { margin-left: 12px; transition: transform .2s ease;}
