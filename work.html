@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Selected projects by Austin Bohlman, designer and front-end developer.">
+  <title>Work | Austin Bohlman</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="index.html" aria-label="Austin Bohlman home">AB<span>.</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+        <span class="sr-only">Open navigation menu</span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="work.html" aria-current="page">Work</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <button class="theme-toggle" type="button" aria-label="Switch to dark theme">◐</button>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="work section container">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Selected work</p>
+          <h1>A few things I've made.</h1>
+        </div>
+        <div class="filters" aria-label="Filter projects">
+          <button class="filter-button active" data-filter="all">All</button>
+          <button class="filter-button" data-filter="product">Product</button>
+          <button class="filter-button" data-filter="web">Web</button>
+        </div>
+      </div>
+      <div class="project-grid">
+        <article class="project-card project-product">
+          <div class="project-image image-lumen"><span>CVS Health Software Engineer Onboarding Training Page</span><small>03/1/26-05/1/26</small></div>
+          <div class="project-meta"><div><h3>Lumen Finance</h3><p>Product design · Development</p></div><a href="contact.html" aria-label="Learn more about Lumen Finance">↗</a></div>
+        </article>
+        <article class="project-card project-web">
+          <div class="project-image image-north"><span>Phishing Campaign</span><small>08/25/25-05/01/2026</small></div>
+          <div class="project-meta"><div><h3>North Journal</h3><p>Branding · Editorial website</p></div><a href="contact.html" aria-label="Learn more about North Journal">↗</a></div>
+        </article>
+        <article class="project-card project-web">
+          <div class="project-image image-mono"><span>Dayton FlyerGPT</span><small>08/25/25-05/01/26</small></div>
+          <div class="project-meta"><div><h3>Mono Objects</h3><p>E-commerce · Art direction</p></div><a href="contact.html" aria-label="Learn more about Mono Objects">↗</a></div>
+        </article>
+        <article class="project-card project-product">
+          <div class="project-image image-pulse"><span>CVS Health Accessibility Pages</span><small>08/20/25-Indefinitely</small></div>
+          <div class="project-meta"><div><h3>Pulse Health</h3><p>UX strategy · Product design</p></div><a href="contact.html" aria-label="Learn more about Pulse Health">↗</a></div>
+        </article>
+      </div>
+    </section>
+  </main>
+  <footer class="footer container">
+    <a class="logo" href="index.html" aria-label="Austin Bohlman home">AB<span>.</span></a>
+    <p>© <span id="year"></span> Austin Bohlman. Made with intention.</p>
+    <div class="social-links"><a href="#" aria-label="Instagram">ig</a><a href="#" aria-label="LinkedIn">in</a><a href="#" aria-label="Dribbble">dr</a></div>
+  </footer>
+</body>
+</html>
